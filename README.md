@@ -20,16 +20,16 @@ pip install -r requirements.txt
 ```
 3. Run Tests
 
-Run All Tests: To run all tests in the tests directory
-```
-pytest
-```
-Run Specific Test File: To run tests in a specific test file, provide the path to the file:
-```
-pytest tests/smoke/test_tracker.py
-```
-
-Run Tests with a Specific Mark or Test Case: To run tests that are marked with a specific label, use the -m option:
-```
-pytest -m "smoke"
-```
+   Run All Tests: To run all tests in the tests directory
+   ```
+   pytest
+   ```
+   Run Specific Test File: To run tests in a specific test file, provide the path to the file:
+   ```
+   pytest tests/smoke/test_tracker.py
+   ```
+   
+   Run Tests with a Specific Mark or Test Case: To run tests that are marked with a specific label, use the -m option:
+   ```
+   pytest -m "smoke"
+   ```
