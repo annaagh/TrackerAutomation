@@ -1,13 +1,27 @@
 # TrackerAutomation
-Opencv object tracker automation
 
-Install dependencies
+## Overview
+
+**TrackerAutomation** is a project that automates object tracking using OpenCV. It includes tools and tests for evaluating the accuracy of object trackers.
+
+---
+
+## Installation
+
+Follow the steps below to set up the environment and install dependencies:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/annaagh/TrackerAutomation.git
+   cd TrackerAutomation
+
+2. **Install dependencies
 ```
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-Run Tests
+3. **Run Tests
 
 Run All Tests: To run all tests in the tests directory
 ```
