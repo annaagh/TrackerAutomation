@@ -20,7 +20,7 @@ def mock_bbox_func():
 ])
 def test_tracker_accuracy(tracker_output_csv, right_csv, iou_threshold):
     try:
-        tracker(test_video_path, mock_bbox_func, test_mode=True, output_csv=tracker_output_csv)
+        tracker(test_video_path, mock_bbox_func, output_csv=tracker_output_csv)
         tracker_data = read_csv(tracker_output_csv)
         right_data = read_csv(right_csv)
 
